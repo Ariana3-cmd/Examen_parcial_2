@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body style="display: flex; border: 2px solid black; width: 1000px; height: 200px;" >
+    <header>
+  <div class="container" style="margin-top: 50px;">
+    <div class="form-group" style="display: grid;"> Nombres y Apellidos
+      <input type="text" name="" id="nombre" class="form-control" placeholder="Nombres" aria-describedby="helpId">
+    </div>
+    <div class="form-group" style="display:grid;"> Correo
+      <input type="text" name="" id="correo" class="form-control" placeholder="Correo" aria-describedby="helpId">
+    </div>
+    <div class="form-group" style="display: grid;"> Teléfono 
+      <input type="text" name="" id="telefono" class="form-control" placeholder="Telèfono" aria-describedby="helpId">
+    </div>
+    <button class="btn btn-primary" onclick="registrar()">Registrar</button>
+  </div>
+</header>
+  <div class="container" style="margin-top: 50p; border: 2px solid black" >
+    <table class="table" style="padding: 20px;">
+      <thead>
+        <tr>
+          <th scope="col">#</th>
+          <th scope="col">NOMBRES</th>
+          <th scope="col">CORREO</th>
+          <th scope="col">TELEFONO</th>
+          <th scope="col">ACCION</th>
+        </tr>
+      </thead>
+      <tbody id="tbd">        
+      </tbody>
+    </table>
+  </div>
+
+</body>
+<link rel="stylesheet" href="js/jquery.js">
+
+ <link rel="stylesheet" href="js/contactos.js">
+
+</html>
